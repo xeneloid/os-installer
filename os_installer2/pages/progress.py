@@ -4,6 +4,7 @@
 #  This file is part of os-installer
 #
 #  Copyright 2013-2016 Ikey Doherty <ikey@solus-project.com>
+#  Copyright 2016 Xeneloid <xeneloid@yandex.ru>
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -123,7 +124,7 @@ class InstallerProgressPage(BasePage):
         self.post_installs = []
 
     def get_title(self):
-        return "Installing Solus"
+        return "Installing Dertium"
 
     def get_name(self):
         return "install"
