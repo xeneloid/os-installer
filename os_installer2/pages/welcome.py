@@ -4,6 +4,7 @@
 #  This file is part of os-installer
 #
 #  Copyright 2013-2016 Ikey Doherty <ikey@solus-project.com>
+#  Copyright 2016 Xeneloid <xeneloid@yandex.ru>
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -45,8 +46,8 @@ class InstallerWelcomePage(BasePage):
         self.grid.attach(button, 0, 1, 1, 1)
         # Install label
         label = Gtk.Label.new("<big>{}</big>\n<small>{}</small>".format(
-                              "Install Solus to disk",
-                              "Permanently use Solus on your device"))
+                              "Install Dertium to disk",
+                              "Permanently use Dertium on your device"))
         label.get_style_context().add_class("dim-label")
         label.set_use_markup(True)
         self.grid.attach(label, 0, 2, 1, 1)
@@ -82,4 +83,4 @@ class InstallerWelcomePage(BasePage):
         return "welcome"
 
     def get_title(self):
-        return "Install Solus"
+        return "Install Dertium"
